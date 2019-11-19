@@ -1,0 +1,43 @@
+.con_form input[type=text],input[type=password],input[type=submit],input[type=number],input[type=email]
+		{
+			width: 25%;
+			border: 2px solid black;
+			padding: 10px;
+			border-radius: 4px;
+			margin:3px;
+			box-sizing: border-box;
+		}
+		label
+		{
+			font-size:18px;
+		}
+		input[type=submit]:hover
+		{
+			color:black;
+			border-color: lightgray;
+		}
+		input[type=text]:hover
+		{
+			border-color: lightgray;
+		}
+		input[type=password]:hover
+		{
+			border-color:lightgray;
+		}
+		::placeholder 
+		{
+ 			 color: black;
+		}
+		input[type=text]:focus
+		{
+			outline: 1px solid lightgray;
+		}
+		input[type=password]:focus
+		{
+			outline: 1px solid lightgray;
+		}
+		a#hyper_remove_under
+		{
+			text-decoration: none;
+			color: black;
+		}
